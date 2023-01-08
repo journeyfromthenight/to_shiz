@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    #image{
+        display:none;
+    }
+    .extra{
+        display:none;
+    }
+</style>
+</head>
+
+<body>
+<h1>hey hey</h1>
+<h1>if ur wondering why i haven't spoken, i was working</h1>
+<h3>quite a lot</h3>
+<h1>i was so busy working on your gift that i missed the d-day</h1>
+<h1>so here it is happy birthday! not an experienced coder yet but this will do!!</h1>
+<br>
+
+<div>
+    <a href="title.html">
+    <img id="image" src="shizune/hat.png" alt="hat:)" width="1000px">
+    </a>
+</div>
+
+<div class="extra" id="extraID">
+    <p> jk click this link</p>
+</div>
+
+<button type="button"
+    onclick="show()" id="btnID">
+    Press here
+</button>
+
+</body>
+
+<script>
+    function show() {
+        document.getElementById('image')
+                .style.display = "block";
+
+        document.getElementById('btnID')
+                .style.display = "none";
+        
+        document.getElementById('extra')
+                .style.display = "block";
+        
+        document.getElementById('extraID')
+                .style.display = "none";
+    }
+</script>

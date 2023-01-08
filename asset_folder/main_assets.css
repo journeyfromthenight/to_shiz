@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+html{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body{
+    margin: 0;  
+    padding: 16px; 
+    background: url("../shizune/fireworks.jpg");
+    background-repeat: no-repeat;
+    max-height: 1080px;
+  }
+  
+.card{
+margin: 40px auto;
+padding: 16px;
+max-width: 800px;
+background-color: #efeefe;
+text-align: center;
+box-shadow: 0 24px 40px -8px #bf77fa;
+flex-direction: column;
+  }
+
+.card h1{
+    font-size: 32px;
+}
+  
+.card img{
+width: 85%;
+  }
+  
+.card button {
+border: none;
+color: rgb(20, 21, 102);
+padding: 8px 16px;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 11px;
+transition-duration: 0.4s;
+cursor: pointer;
+position: fixed;
+bottom: 10px;
+right: 20px;
+}
+
+.card button button1 {
+background-color: #fff;
+color: black;
+border: 1.2px solid #000; 
+  }

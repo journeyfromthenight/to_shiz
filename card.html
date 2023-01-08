@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Shizu no Tojimari</title>
+<link rel="stylesheet" href="asset_folder/card_assets.css">
+<link rel="icon" type="image/x-icon" href="shizune/icon.jpg">
+</head>
+<body>
+<div class="book">
+<input type="checkbox" id="c1">
+<input type="checkbox" id="c2">
+<input type="checkbox" id="c3">
+<input type="checkbox" id="c4">
+<input type="checkbox" id="c5">
+
+<div id="cover"><img src="shizune/1.jpg"></div>
+<div class="flip-book">
+
+<div class="flip" id="p1">
+<div class="back">
+<img src="shizune/2.jpg">
+<label class="back-btn" for="c1">Back</label>
+</div>
+<div class="front">
+<h2>To Karen</h2>
+<p>Happy Birthday! Sorry I haven't talked much! The deadline came much faster
+	than I expected, so I decided to just full focus rush the whole thing. Sorry if I worried you!
+	<br><br>
+	So, you're 18 now, huh? That's hella cool. You're pretty old now, and so am I. I've known you since
+	Y5, truly got to be your friend in Y7. That all began what, eight years ago now? Who knew, the girl I shook hands
+	with before exams in some school would become one of the greatest people I've ever met? Now, we're even
+	in different parts of the world. That's insane, to think of how far life has gone.
+	<br><br>
+	To be honest, when I went through "that" phase in Y9, I made things incredibly weird, so it wasn't much of a surprise
+	that I was turned down. Looking back, it definitely would have been strange if you accepted. Now I've seen what
+	the real world is like, and how people treat you, I'm glad you weren't too indifferent.
+</p>
+<label class="next-btn" for="c1">Next</label>
+	</div>
+</div>
+
+<div class="flip" id="p2">
+<div class="back">
+<img src="shizune/3.jpg">
+<label class="back-btn" for="c2">Back</label>
+</div>
+<div class="front">
+<p>
+	You were the one who introduced me to anime, and that was one saving grace. I've been able to delve into that colorful, wonderful world.
+	Fun fact, I would've probably been way different without that. Even if it was something irrelavant to you, it did shape my life, espeically after highschool.
+	Without it, I wouldn't be interested in making new cosplay friends, and kept to myself more. I would've slowed down on piano much more, 
+	as RADWIMPS was what inspired me to play, which I got from Denzel, which I wouldn't have gotten without you recommending Your Name.
+	<br>
+	<br>
+	You've been an amazing impact in my life. Without you, I don't know what path I would have followed. Maybe down a darker one (or a brighter one ehe).
+	Although you may be pretty far physically, I know you got my back mentally. I really hope that you spent your birthday with some good people over there!
+	Don't go Y5 Karen on them!
+	<br>
+	<br>
+	(seriously though gw kek kasihan with the CA people AWOKWKWKWK)
+</p>
+	<label class="next-btn" for="c2">Next</label>
+	</div>
+</div>
+
+<div class="flip" id="p3">
+<div class="back">
+<img src="shizune/4.jpg">
+<label class="back-btn" for="c3">From, The One Stuck in the Past.</label>
+</div>
+<div class="front">
+<p>
+	Lastly, I'm sure you're aware of this, but the song I sang during graduation was dedicated to all my friends, and you are no exception.
+	Every single lyrics apply to everyone, you included. Kawarainaimono, meaning "The Things that Never Change". To be honest, I don't really want to keep going.
+	It's incredibly tiring doing all this work, and moving forward is simply exhausting. I don't want to keep going the way I am, not doing anything anywhere.
+	Yet, that's the situation. If I could, I would be back to middle school, playing around, and when the checkpoint exams were the things I had to worry about the most.
+	Learning new things the same way I did with A-Level maths is soul crushing, but I think I'll be alright. After all, I can't let you come back to
+	the same Drew you said bye to, right?
+	<br><br>
+	Although I wish things really never changed, it all happened, and the future is still coming. Time waits for no one. 
+	I hope you had a wonderful celebration, and everyone wished you on that day. Have a great year, future Valedictorian.
+	I know you can do it.
+</p>
+<label class="next-btn" for="c3">Next</label>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="audio-player">
+	<audio controls loop autoplay hidden id="aozora">
+		<source src="audio/aozora.mp3" type="audio/mp3">
+	</audio>
+	<script>
+		var audio = document.getElementById("aozora");
+		audio.volume = 0.25;
+	  </script>
+</div>
+
+<div class="return-btn">
+	<a href="title.html"; style="text-decoration: none;">
+	<h1> < Return</h1>
+	</a>
+</div>
+
+</body>
+</html>
